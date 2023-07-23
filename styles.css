@@ -1,1 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: auto 3tr;
+  grid-template-rows: auto 4tr;
+  border: solid 1px red;
+  background-color: blue;
 
+}
+
+.header {
+  grid-area: 1 / 1 / 2 / 4;
+}
